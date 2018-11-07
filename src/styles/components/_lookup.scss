@@ -1,0 +1,50 @@
+.svu-lookup{
+	position: relative;
+	border: 1px solid $c-gray-bd;
+	border-radius: 4px;
+	cursor: pointer;
+	
+	&:hover{
+		border-color: $c-primary-hover;
+		box-shadow: 0 0 0 2px rgba(45,140,240,.2)
+	}
+
+	&.small{
+		border-radius: 3px;
+	}
+
+	.svu-lookup-content{
+		height: 30px;
+		line-height: 30px;
+		padding-left: 8px;
+		padding-right: 48px;
+
+		&.small{
+			height: 30px;
+			line-height: 30px;
+		}
+
+		&.large{
+			height: 30px;
+			line-height: 30px;
+		}
+	}
+	
+	.svu-lookup-item{
+		.svu-lookup-deselect{
+			
+		}
+	}
+
+	.svu-lookup-clear{
+		position: absolute;
+		right: 24px;
+		top: 0;
+	}
+
+	.svu-lookup-search-icon{
+		position: absolute;
+		right: 8px;
+		top: 0;
+	}
+}

@@ -1,0 +1,27 @@
+// overide iview layout
+.ivu-layout {
+	background-color: $c-gray-bg;
+}
+
+// overide iview blue-tag
+.ivu-tag-blue{
+	line-height: 32px;
+}
+.ivu-tag-blue.ivu-tag-dot .ivu-tag-dot-inner{
+	background: #2d8cf0;
+}
+
+// overide form
+textarea.ivu-input{
+	font-size: 12px;
+}
+
+// append input
+.ivu-input-icon-append{
+	right: 27px;
+}
+
+// poptip confirm icon
+.ivu-poptip-confirm .ivu-poptip-body .ivu-icon{
+	left: 16px;
+}
